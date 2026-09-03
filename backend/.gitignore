@@ -1,0 +1,13 @@
+# backend/.gitignore
+node_modules/
+.env
+.env.local
+.env.production
+uploads/
+logs/
+coverage/
+.DS_Store
+*.log
+*.pid
+*.seed
+*.pid.lock

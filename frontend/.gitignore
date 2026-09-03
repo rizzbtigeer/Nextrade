@@ -1,0 +1,10 @@
+# frontend/.gitignore
+node_modules/
+.env
+.env.local
+.env.production
+dist/
+dist-ssr/
+*.local
+.DS_Store
+*.log

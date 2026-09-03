@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Le back-office n'est pas listé ici volontairement : son adresse est
+# personnalisée (voir VITE_ADMIN_BASE_PATH) et chaque page admin porte déjà
+# une balise <meta name="robots" content="noindex,nofollow"> qui est le
+# mécanisme fiable pour empêcher son indexation par les moteurs de recherche.
+
+Sitemap: https://www.tonsite.com/sitemap.xml
