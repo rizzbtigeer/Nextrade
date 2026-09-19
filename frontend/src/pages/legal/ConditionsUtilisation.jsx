@@ -4,7 +4,7 @@ import { BRAND_NAME } from '../../config.js';
 
 export default function ConditionsUtilisation() {
   return (
-    <LegalLayout title="Conditions Générales d'Utilisation et de Vente" updated="[à compléter]">
+    <LegalLayout title="Conditions Générales d'Utilisation et de Vente" updated="2026">
       <p>
         Les présentes conditions régissent l'utilisation du site {BRAND_NAME} (ci-après « le
         Site ») ainsi que le processus de commande qui y est proposé. En utilisant ce Site, vous

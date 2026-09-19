@@ -4,7 +4,7 @@ import { BRAND_NAME } from '../../config.js';
 
 export default function Confidentialite() {
   return (
-    <LegalLayout title="Politique de confidentialité" updated="[à compléter]">
+    <LegalLayout title="Politique de confidentialité" updated="2026">
       <p>
         Cette page explique quelles informations {BRAND_NAME} collecte lorsque vous utilisez le
         Site, et comment elles sont utilisées.

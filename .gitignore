@@ -1,31 +1,64 @@
-# Environment variables
+# ============================================================
+# ENVIRONMENT VARIABLES
+# ============================================================
 .env
 .env.local
 .env.production
+.env.development
 .env.*.local
+.env.*.production
+!.env.example
 
-# Dependencies
+# ============================================================
+# DEPENDENCIES
+# ============================================================
 node_modules/
 */node_modules/
+**/node_modules/
 
-# Logs
+# ============================================================
+# LOGS
+# ============================================================
 logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+.pm2/
 
-# Uploads
-uploads/
+# ============================================================
+# UPLOADS (garder le dossier mais pas les fichiers)
+# ============================================================
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
 temp/
 storage/
 
-# Database
+# ============================================================
+# DATABASE
+# ============================================================
 data/
 mongodb-data/
 *.dump
 
-# IDE
+# ============================================================
+# BUILD / CACHE
+# ============================================================
+dist/
+build/
+coverage/
+*.tsbuildinfo
+.cache/
+.parcel-cache/
+.vite/
+node_modules/.vite/
+
+# ============================================================
+# IDE / OS
+# ============================================================
 .vscode/
 .idea/
 *.swp
@@ -33,22 +66,17 @@ mongodb-data/
 *~
 .DS_Store
 Thumbs.db
-
-# Build
-dist/
-build/
-coverage/
-*.tsbuildinfo
-
-# Testing
-*.test.js
-*.spec.js
-
-# OS
-.DS_Store
-Thumbs.db
 desktop.ini
 
-# Backup
+# ============================================================
+# RUNTIME
+# ============================================================
+*.pid
+*.seed
+*.pid.lock
+
+# ============================================================
+# BACKUP
+# ============================================================
 backups/
 *.backup
